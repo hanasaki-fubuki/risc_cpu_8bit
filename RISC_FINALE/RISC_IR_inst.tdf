@@ -1,0 +1,9 @@
+(
+	q_sig[]
+) = RISC_IR	(
+	.data[] = data_sig[],
+	.gate = gate_sig
+)
+RETURNS (
+	.q[]
+);

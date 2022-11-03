@@ -1,0 +1,6 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_ROM"
+set_global_assignment -name IP_TOOL_VERSION "9.0"
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_ROM.tdf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_ROM.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_ROM_inst.tdf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_ROM.cmp"]

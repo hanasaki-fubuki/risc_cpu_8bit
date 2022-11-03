@@ -1,0 +1,9 @@
+(
+	q_sig[]
+) = OUTPUT_REG	(
+	.data[] = data_sig[],
+	.gate = gate_sig
+)
+RETURNS (
+	.q[]
+);

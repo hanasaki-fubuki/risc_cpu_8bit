@@ -1,0 +1,94 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 9.0 Build 132 02/25/2009 SJ Full Version
+# Date created = 16:36:27  October 31, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		RISC_FINALE_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C40Q240C8
+set_global_assignment -name TOP_LEVEL_ENTITY RISC_FINALE
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:36:27  OCTOBER 31, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name BDF_FILE RISC_FINALE.bdf
+set_global_assignment -name MIF_FILE ram.mif
+set_global_assignment -name MIF_FILE rom.mif
+set_global_assignment -name VHDL_FILE ALU181.vhd
+set_global_assignment -name SOURCE_FILE lpm_bustri0.cmp
+set_global_assignment -name VHDL_FILE lpm_bustri0.vhd
+set_global_assignment -name BDF_FILE REG_STACK_8X4.bdf
+set_global_assignment -name VHDL_FILE REG8.vhd
+set_global_assignment -name SOURCE_FILE RISC_AR.cmp
+set_global_assignment -name AHDL_FILE RISC_AR.tdf
+set_global_assignment -name SOURCE_FILE RISC_PC.cmp
+set_global_assignment -name SOURCE_FILE RISC_RAM.cmp
+set_global_assignment -name VHDL_FILE RISC_RAM.vhd
+set_global_assignment -name QIP_FILE RISC_PC.qip
+set_global_assignment -name QIP_FILE RISC_AR.qip
+set_global_assignment -name QIP_FILE OUTPUT_REG.qip
+set_global_assignment -name QIP_FILE RISC_IR.qip
+set_global_assignment -name VHDL_FILE CTRL_CTR.vhd
+set_global_assignment -name QIP_FILE RISC_ROM.qip
+set_global_assignment -name BDF_FILE SEQUENCE.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_55 -to DATA_BUS_IN[7]
+set_location_assignment PIN_52 -to DATA_BUS_IN[6]
+set_location_assignment PIN_51 -to DATA_BUS_IN[5]
+set_location_assignment PIN_50 -to DATA_BUS_IN[4]
+set_location_assignment PIN_49 -to DATA_BUS_IN[3]
+set_location_assignment PIN_46 -to DATA_BUS_IN[2]
+set_location_assignment PIN_45 -to DATA_BUS_IN[1]
+set_location_assignment PIN_44 -to DATA_BUS_IN[0]
+set_location_assignment PIN_76 -to MAIN_OUTPUT[7]
+set_location_assignment PIN_73 -to MAIN_OUTPUT[6]
+set_location_assignment PIN_70 -to MAIN_OUTPUT[5]
+set_location_assignment PIN_69 -to MAIN_OUTPUT[4]
+set_location_assignment PIN_68 -to MAIN_OUTPUT[3]
+set_location_assignment PIN_63 -to MAIN_OUTPUT[2]
+set_location_assignment PIN_57 -to MAIN_OUTPUT[1]
+set_location_assignment PIN_56 -to MAIN_OUTPUT[0]
+set_location_assignment PIN_152 -to CLK
+set_location_assignment PIN_43 -to PC_CLEAR
+set_location_assignment PIN_22 -to STEP
+set_global_assignment -name MISC_FILE "C:/Users/Mengyun Jia/Desktop/hardware_design/190341213/RISC_FINALE/RISC_FINALE.dpf"

@@ -1,0 +1,156 @@
+Flow report for RISC_FINALE
+Wed Nov 02 21:09:41 2022
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Wed Nov 02 21:09:38 2022    ;
+; Quartus II Version                 ; 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name                      ; RISC_FINALE                              ;
+; Top-level Entity Name              ; RISC_FINALE                              ;
+; Family                             ; Cyclone III                              ;
+; Device                             ; EP3C40Q240C8                             ;
+; Timing Models                      ; Final                                    ;
+; Met timing requirements            ; N/A                                      ;
+; Total logic elements               ; 318 / 39,600 ( < 1 % )                   ;
+;     Total combinational functions  ; 298 / 39,600 ( < 1 % )                   ;
+;     Dedicated logic registers      ; 176 / 39,600 ( < 1 % )                   ;
+; Total registers                    ; 176                                      ;
+; Total pins                         ; 27 / 129 ( 21 % )                        ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 2,448 / 1,161,216 ( < 1 % )              ;
+; Embedded Multiplier 9-bit elements ; 0 / 252 ( 0 % )                          ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/02/2022 21:09:26 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; RISC_FINALE         ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                       ;
++------------------------------------+------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                                                              ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 92384135473905.166739456609208                                                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                                                                        ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_LATCH                                                                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_LATCH                                                                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_LATCH                                                                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_ROM                                                                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                                                ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                                                ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                                                ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                                                ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                                                ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                                                                 ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                                                                  ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_PC.tdf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_PC.bsf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_PC_inst.tdf                                                                   ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_PC.inc                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_PC.cmp                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_AR.tdf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_AR.bsf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_AR_inst.tdf                                                                   ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_AR.inc                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_AR.cmp                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; OUTPUT_REG.tdf                                                                     ; --            ; --          ; --             ;
+; MISC_FILE                          ; OUTPUT_REG.bsf                                                                     ; --            ; --          ; --             ;
+; MISC_FILE                          ; OUTPUT_REG_inst.tdf                                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; OUTPUT_REG.inc                                                                     ; --            ; --          ; --             ;
+; MISC_FILE                          ; OUTPUT_REG.cmp                                                                     ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_IR.tdf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_IR.bsf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_IR_inst.tdf                                                                   ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_IR.inc                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_IR.cmp                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_ROM.tdf                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_ROM.bsf                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_ROM_inst.tdf                                                                  ; --            ; --          ; --             ;
+; MISC_FILE                          ; RISC_ROM.cmp                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/Users/Mengyun Jia/Desktop/hardware_design/190341213/RISC_FINALE/RISC_FINALE.dpf ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                                                               ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                                                           ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                                             ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                                                ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+------------------------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 256 MB              ; 00:00:01                           ;
+; Fitter                    ; 00:00:05     ; 1.0                     ; 381 MB              ; 00:00:01                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 289 MB              ; 00:00:00                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 289 MB              ; 00:00:00                           ;
+; Total                     ; 00:00:11     ; --                      ; --                  ; 00:00:02                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                ;
++---------------------------+----------------------+---------------+------------+----------------+
+; Module Name               ; Machine Hostname     ; OS Name       ; OS Version ; Processor type ;
++---------------------------+----------------------+---------------+------------+----------------+
+; Analysis & Synthesis      ; hanasaki-workstation ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                    ; hanasaki-workstation ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler                 ; hanasaki-workstation ; Windows Vista ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; hanasaki-workstation ; Windows Vista ; 6.2        ; x86_64         ;
++---------------------------+----------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off RISC_FINALE -c RISC_FINALE
+quartus_fit --read_settings_files=off --write_settings_files=off RISC_FINALE -c RISC_FINALE
+quartus_asm --read_settings_files=off --write_settings_files=off RISC_FINALE -c RISC_FINALE
+quartus_sta RISC_FINALE -c RISC_FINALE
+
+
+
