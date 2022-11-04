@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 04 20:50:33 2022
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : RISC_FINALE
+Top-level Entity Name : RISC_FINALE
+Family : Cyclone III
+Total logic elements : 352
+    Total combinational functions : 295
+    Dedicated logic registers : 172
+Total registers : 172
+Total pins : 76
+Total virtual pins : 0
+Total memory bits : 2,384
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
