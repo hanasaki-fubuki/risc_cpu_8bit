@@ -1,7 +1,0 @@
-set_global_assignment -name IP_TOOL_NAME "LPM_COUNTER"
-set_global_assignment -name IP_TOOL_VERSION "9.0"
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_PC.tdf"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_PC.bsf"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_PC_inst.tdf"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_PC.inc"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RISC_PC.cmp"]

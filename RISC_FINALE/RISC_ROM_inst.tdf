@@ -1,9 +1,0 @@
-(
-	q_sig[]
-) = RISC_ROM	(
-	.address[] = address_sig[],
-	.inclock = inclock_sig
-)
-RETURNS (
-	.q[]
-);
