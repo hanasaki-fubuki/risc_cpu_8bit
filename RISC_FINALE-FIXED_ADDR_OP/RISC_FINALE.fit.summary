@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Nov 05 17:15:13 2022
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : RISC_FINALE
+Top-level Entity Name : RISC_FINALE
+Family : Cyclone III
+Device : EP3C40Q240C8
+Timing Models : Final
+Total logic elements : 325 / 39,600 ( < 1 % )
+    Total combinational functions : 300 / 39,600 ( < 1 % )
+    Dedicated logic registers : 176 / 39,600 ( < 1 % )
+Total registers : 176
+Total pins : 96 / 129 ( 74 % )
+Total virtual pins : 0
+Total memory bits : 2,448 / 1,161,216 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 252 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
